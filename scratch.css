@@ -1,0 +1,9 @@
+body, textarea {
+	background-color: #ffd;
+	font: 400 8pt/13pt consolas, monospace;
+	overflow:hidden;
+	border: 0;
+	padding: 0.5em;
+	outline: 0px !important;
+	-webkit-appearance: none;
+}

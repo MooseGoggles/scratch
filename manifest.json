@@ -1,0 +1,17 @@
+{
+	"name" : "Scratch",
+	"description" : "LocalStorage scratch pad",
+	"version" : "2.0",
+	"manifest_version" : 2,
+	"author" : "jack.lyons@gmail.com",
+	"permissions" : [
+		"storage"
+	],
+	"background" : {
+		"page" : "bg.html"
+	},
+	"browser_action" : {
+		"default_popup" : "scratch.html",
+		"default_icon" : "scratch.png"
+	}
+}
