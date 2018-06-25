@@ -1,7 +1,10 @@
 # scratch
 Browser extension for plain text pasting
+
 Installation:
+
 Go to https://github.com/MooseGoggles/scratch
+
 Download the files as a zip by clicking “Clone or Download”  then "Download ZIP". 
 Unzip them anywhere on your hard drive, like My Documents\Extensions\Scratch or something like that.
 Go to your browser’s Extensions page (Chrome: menu > More Tools > Extensions). 
