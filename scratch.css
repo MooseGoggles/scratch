@@ -3,7 +3,40 @@ body, textarea {
 	font: 400 8pt/13pt consolas, monospace;
 	overflow:hidden;
 	border: 0;
+	margin-top: 0;
 	padding: 0.5em;
 	outline: 0px !important;
-	-webkit-appearance: none;
+	z-webkit-appearance: none;
+}
+textarea {
+	margin-top: ;
+}
+
+div#toolbar {
+	opacity:0;
+	margin-bottom:0;
+}
+div#toolbar:hover {
+	opacity:1;
+}
+
+button {
+	background: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	float:right;
+	margin: 0px 2px;
+}
+button:hover {
+	background-color:white;
+	border: 1px solid #333;
+}
+div#toolbar { 
+	/*opacity:0;*/
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ccc;
+}
+div#toolbar:hover {
+	opacity:1;
+    transition: opacity 0.2s linear 0s;
 }
