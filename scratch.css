@@ -8,35 +8,24 @@ body, textarea {
 	outline: 0px !important;
 	-webkit-appearance: none;
 }
-textarea {
-	margin-top: ;
-}
 
-div#toolbar {
+
+#toolbar { 
 	opacity:0;
 	margin-bottom:0;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ccc;
 }
-div#toolbar:hover {
-	opacity:1;
-}
+	#toolbar:hover {
+		opacity:1;
+		transition: opacity 0.2s linear 0s;
+	}
+
 
 button {
-	background: none;
-	border: 1px solid #ccc;
-	border-radius: 2px;
 	float:right;
 	margin: 0px 2px;
 }
 button:hover {
-	background-color:white;
-	border: 1px solid #333;
-}
-div#toolbar { 
-	/*opacity:0;*/
-	padding-bottom: 4px;
-	border-bottom: 1px solid #ccc;
-}
-div#toolbar:hover {
-	opacity:1;
-    transition: opacity 0.2s linear 0s;
-}
+	border: 2px solid #06f;
+
