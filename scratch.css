@@ -1,6 +1,7 @@
 body, textarea {
 	background-color: #ffd;
-	font: 400 8pt/13pt consolas, monospace;
+	font: 400 8pt consolas, monospace;
+	line-height: 120%;
 	overflow:hidden;
 	border: 0;
 	margin-top: 0;
@@ -11,6 +12,7 @@ body, textarea {
 
 
 #toolbar { 
+	background-color: #ffc;
 	opacity:0;
 	margin-bottom:0;
 	padding-bottom: 4px;
